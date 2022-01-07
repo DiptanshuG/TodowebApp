@@ -1,0 +1,60 @@
+body {
+  background: url(https://image.shutterstock.com/image-photo/blurred-calendar-pencil-blue-tone-260nw-641052127.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: rgb(31, 171, 226);
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+.list-group {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 480px ){
+  body { 
+    background: url(https://image.shutterstock.com/image-photo/blurred-calendar-pencil-blue-tone-260nw-641052127.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
+}  
+}
+@media only screen and (min-width: 480px) and (max-width:800px) {
+  body { 
+    background-color: rgb(15, 15, 14);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+    height:100%;
+    width:100%; 
+}  
+}
+@media only screen and (min-width: 800px) and (max-width:1300px) {
+  body { 
+    background-color: rgb(3, 3, 3);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+    height:100%;
+    width:100%; 
+}  
+}
